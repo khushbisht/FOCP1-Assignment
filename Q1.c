@@ -20,6 +20,7 @@ int main(){
         sum+= pow(rem, c);
         no = no / 10;
     }
+    
     // Check Armstrong
     if((int)sum == n)
         printf("%d is an Armstrong\n"  , n);
