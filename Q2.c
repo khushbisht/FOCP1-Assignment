@@ -5,7 +5,6 @@ int main() {
     printf("Enter two integers: ");
     scanf("%d %d", &a, &b);
 
-    // Iterative logic to find HCF (Euclidean algorithm)
     while (b != 0) {
         temp = b;
         b = a % b;
